@@ -1,0 +1,43 @@
+legend{
+    font-size: 50px;
+    color: maroon;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.IF {
+    width: 800px;
+    margin: auto;
+    border: 4px solid maroon;
+}
+.entete {
+    display: fleX;
+    gap: 16px;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.photo img {
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 80px;
+}
+.infos { flex: 1; }
+.nom { font-size: 1.4rem; }
+.coordonnees { color: grey; }
+
+.contenu section  {
+    padding: 16PX 20px;
+    display: grid;
+    background: blanchedalmond;
+    margin-bottom: 12px;
+    padding: 12px;
+    
+}
+section h2 {
+    font-size:1,4rem;
+    margin-bottom: 2px;
+    color: maroon;
+    padding-bottom:2px;
+}
